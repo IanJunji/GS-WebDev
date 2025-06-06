@@ -1,6 +1,6 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 import Nav from './components/Nav'
-import Footer from './components/Footer'
+import Footer from './components/Footer' 
 
 function App() {
   return (
@@ -18,6 +18,7 @@ function App() {
           </Routes>
         </main>
 
+        {/* Use o nome correto do componente */}
         <Footer />
       </div>
     </Router>
