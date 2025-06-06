@@ -2,6 +2,14 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 import Nav from './components/Nav'
 import Footer from './components/Footer' 
 
+import Home from './routes/Home';
+import Login from './routes/Login';
+import Sobre from './routes/Sobre';
+import Cadastrar from './routes/Cadastrar';
+import Solucao from './routes/Solucao';
+import Error from './routes/Error'; 
+
+
 function App() {
   return (
     <Router>
@@ -10,11 +18,12 @@ function App() {
         
         <main className="flex-grow">
           <Routes>
-            <Route path="/" element={<div>Home</div>} />
-            <Route path="/login" element={<div>Login</div>} />
-            <Route path="/sobre" element={<div>Sobre</div>} />
-            <Route path="/cadastrar" element={<div>Cadastrar</div>} />
-            <Route path="/solucao" element={<div>Solução</div>} />
+            <Route path="/" element={<Home />} />
+            <Route path="/login" element={<Login />} />
+            <Route path="/sobre" element={<Sobre />} />
+            <Route path="/cadastrar" element={<Cadastrar />} />
+            <Route path="/solucao" element={<Solucao />} />
+            <Route path="*" element={<Error />} />
           </Routes>
         </main>
 
