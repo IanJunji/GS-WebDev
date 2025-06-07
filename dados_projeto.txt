@@ -1,0 +1,8 @@
+Resgate Solidário
+Nossa jornada se concentra em uma necessidade crítica após as enchentes: a gestão eficiente e humana de abrigos e doações. Assim nasce o projeto "Resgate Solidário", uma plataforma inteligente destinada a otimizar a alocação de recursos, conectar necessitados a abrigos seguros, e facilitar o fluxo de doações de forma transparente e ágil. Nosso objetivo é transformar o caos pós-desastre em uma rede de apoio organizada e eficaz, onde a tecnologia amplifica a solidariedade.
+
+
+temos um backend em python que retorna os abrigos proximos, doacoes, estados dos abrigos, ou seja, se estao com falta de algo, registram o estoque dos abrigos.
+
+temos tbm um codigo em arduino que controla niveis de agua para previsoes de enchentes e tbm sensores DHT que monitoram temperatura e umidade dos abrigos
+
